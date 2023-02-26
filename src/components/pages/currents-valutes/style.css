@@ -1,0 +1,54 @@
+.courses{
+    margin: 50px auto 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.title{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.18;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.label{
+    margin-top: 2px;
+}
+.form-control{
+    font-weight: 400;
+    line-height: 1;
+    margin-left: 30px;
+    
+}
+.text{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1;
+    margin: 2px 30px 0 0;
+    
+}
+.row{
+    display: flex;
+}
+.col{
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1;
+    margin: 0 30px 0 0;
+}
+.wrapper-inputs{
+    display: flex;
+    flex-direction: column;
+}
+.special{
+    display: flex;
+}
+.special {outline:none;}
+.special[type="number"]::-webkit-outer-spin-button,
+.special[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
